@@ -20,7 +20,7 @@ export const Problem = () => {
             Tired of waiting months and watching costs blow out?
           </h2>
           <p className="text-[17px] leading-[1.4] sm:text-lg md:text-xl lg:text-2xl font-medium text-accent mb-8 sm:mb-10 px-4">
-            There's a smarter way to build your dream home.
+            There's a smarter way to build your next home or add extra space.
           </p>
           
           {/* Refined subtext with better rhythm */}
@@ -46,7 +46,7 @@ export const Problem = () => {
           
           {/* Closing bridge */}
           <p className="text-[14px] leading-[1.6] sm:text-sm md:text-base text-[hsl(var(--primary))] opacity-70 text-center max-w-[640px] mx-auto mt-12 sm:mt-16 px-6">
-            Foldäbl Homes takes the guesswork out of building — fixed pricing, 
+            Foldäbl Homes takes the guesswork out of building with fixed pricing, 
             fast timelines, and full support from council approval to installation.
           </p>
 

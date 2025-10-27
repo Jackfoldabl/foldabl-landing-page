@@ -23,7 +23,7 @@ export const LeadForm = () => {
               Let's Get You Started
             </h2>
             <p className="text-[16px] leading-[1.5] sm:text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-              Tell us a bit about your site and goals — our team will be in touch within 24 hours.
+              Tell us a bit about your site and goals. Our team will be in touch within 24 hours.
             </p>
           </div>
 

@@ -9,7 +9,7 @@ export const Process = () => {
     {
       icon: Home,
       title: "Choose Your Home",
-      description: "Browse our range from 27–79 sqm and find the design that fits your needs, budget, and property.",
+      description: "Browse our range from 27-79 sqm and find the design that fits your needs, budget, and property.",
     },
     {
       icon: FileCheck,
@@ -19,12 +19,12 @@ export const Process = () => {
     {
       icon: Truck,
       title: "Manufacture & Delivery",
-      description: "Your Foldäbl home is precision-built to Australian standards and delivered to your property within 8–10 weeks.",
+      description: "Your Foldäbl home is precision-built to Australian standards and delivered to your property within 8-10 weeks.",
     },
     {
       icon: Wrench,
       title: "Installation Support",
-      description: "Choose to have our licensed partners install your home, or use your own local builder — either way, we'll guide the process from start to finish.",
+      description: "Choose to have our licensed partners install your home, or use your own local builder. Either way, we'll guide the process from start to finish.",
       note: "Availability may vary by location.",
     },
   ];
@@ -38,7 +38,7 @@ export const Process = () => {
             <h2 className="mb-5 text-[24px] leading-[1.25] sm:text-3xl md:text-4xl font-bold" style={{color: '#5F6B7B'}}>How It Works</h2>
             <p className="text-[15px] leading-[1.65] sm:text-base max-w-[600px] mx-auto px-6" 
                style={{color: '#5F6B7B', opacity: 0.85}}>
-              We make owning a modular home simple — from choosing your design to settling in. Our team guides you through every step of the journey.
+              We make owning a modular home simple. From choosing your design to settling in, our team guides you through every step of the journey.
             </p>
           </div>
 
@@ -106,7 +106,7 @@ export const Process = () => {
               onClick={scrollToForm}
               className="group bg-accent text-accent-foreground hover:bg-accent/90 active:bg-accent/90 touch-manipulation min-h-[56px] text-[16px] sm:text-lg px-8 sm:px-10 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto max-w-[400px]"
             >
-              Ready to Get Started?
+              Get Your Free Quote
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1 group-active:translate-x-1" />
             </Button>
           </div>
@@ -115,3 +115,4 @@ export const Process = () => {
     </section>
   );
 };
+

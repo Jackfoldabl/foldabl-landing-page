@@ -75,7 +75,7 @@ export const Hero = () => {
               textShadow: '0 2px 10px rgba(0,0,0,0.4)'
             }}
           >
-            Beautiful modular homes starting from $39,950 — ready in just 8–10 weeks.
+            Smart modular homes starting from $39,950. Built to last, ready in 8-10 weeks.
           </p>
 
           {/* Supporting Paragraph */}
@@ -88,7 +88,7 @@ export const Hero = () => {
               textShadow: '0 2px 10px rgba(0,0,0,0.4)'
             }}
           >
-            Affordable, council-approved designs built to last. Skip the stress of traditional home building.
+            Fixed-price, council-approved homes built to Australian standards.
           </p>
 
           {/* CTA Button */}
@@ -129,7 +129,7 @@ export const Hero = () => {
               textShadow: '0 2px 10px rgba(0,0,0,0.4)'
             }}
           >
-            Finance options from $82/week available. You'll need a suitable property site — our team can help with finance, council approval, and installation.
+            Finance options from $82/week available. You'll need a suitable property site. Our team can help with finance, council approval, and installation.
           </p>
         </div>
       </div>

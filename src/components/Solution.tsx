@@ -10,17 +10,17 @@ export const Solution = () => {
     {
       icon: Clock,
       title: "Move-In Ready Fast",
-      description: "Within 8–10 weeks — no endless waiting.",
+      description: "Within 8-10 weeks. Ready faster than traditional building.",
     },
     {
       icon: TrendingDown,
-      title: "Transparent Pricing",
-      description: "From $39,950 — no hidden costs.",
+      title: "Clear Pricing",
+      description: "From $39,950. No surprises, fixed pricing.",
     },
     {
       icon: Shield,
-      title: "Quality You Can Feel",
-      description: "Built to Australian standards.",
+      title: "Built to Last",
+      description: "Quality construction built to Australian standards.",
     },
   ];
 
@@ -38,10 +38,13 @@ export const Solution = () => {
                 Foldäbl modular homes are built to Australian standards and designed for real families.
               </p>
               <p className="animate-fade-in" style={{animationDelay: '0.1s'}}>
-                Choose your plan — we'll handle council approval, construction, and installation.
+                Whether you're adding extra space or starting fresh, Foldäbl makes it easy to own a home that fits your lifestyle.
               </p>
-              <p className="font-semibold text-[17px] sm:text-lg text-accent animate-fade-in" style={{animationDelay: '0.2s'}}>
-                Move in within 8–10 weeks.
+              <p className="animate-fade-in" style={{animationDelay: '0.2s'}}>
+                Choose your plan and we'll handle council approval, construction, and installation.
+              </p>
+              <p className="font-semibold text-[17px] sm:text-lg text-accent animate-fade-in" style={{animationDelay: '0.3s'}}>
+                Move in within 8-10 weeks.
               </p>
             </div>
           </div>
@@ -126,12 +129,12 @@ export const Solution = () => {
 
           {/* CTA Button after benefits */}
           <div className="flex justify-center mt-14 sm:mt-18 px-6">
-            <Button
+              <Button
               size="lg"
               onClick={scrollToForm}
               className="group bg-accent text-accent-foreground hover:bg-accent/90 active:bg-accent/90 touch-manipulation min-h-[56px] text-[16px] sm:text-lg px-8 sm:px-10 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto max-w-[400px]"
             >
-              Start Your Home Journey
+              Get Your Free Quote
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1 group-active:translate-x-1" />
             </Button>
           </div>

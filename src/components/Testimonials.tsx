@@ -7,11 +7,11 @@ export const Testimonials = () => {
   };
   const testimonials = [
     {
-      text: "Foldäbl handled everything seamlessly — the process was incredibly smooth.",
+      text: "Foldäbl handled everything seamlessly. The process was incredibly smooth.",
       author: "Sarah M",
     },
     {
-      text: "Foldäbl's finance partners made our dream home affordable.",
+      text: "Foldäbl's finance partners made owning a home affordable.",
       author: "Lisa C",
     },
     {
@@ -140,7 +140,7 @@ export const Testimonials = () => {
               onClick={scrollToForm}
               className="group bg-accent text-accent-foreground hover:bg-accent/90 active:bg-accent/90 touch-manipulation min-h-[56px] text-[16px] sm:text-lg px-8 sm:px-10 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto max-w-[400px]"
             >
-              Join These Happy Families
+              Get Your Free Quote
               <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1 group-active:translate-x-1" />
             </Button>
           </div>

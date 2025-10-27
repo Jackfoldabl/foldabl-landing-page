@@ -8,12 +8,12 @@ import {
 export const FAQ = () => {
   const faqs = [
     {
-      question: "How much does a Foldäbl home really cost?",
+      question: "What's the real cost, including setup?",
       answer:
         "Pricing starts from $39,950 for the home. Installation is additional and varies by site and location. We'll give you a clear, itemised estimate before you commit.",
     },
     {
-      question: "How long will a Foldäbl home actually last?",
+      question: "Are Foldäbl homes built to last long-term?",
       answer:
         "Our homes are built to Australian standards with quality materials. With proper site prep and maintenance, they're designed for long-term living.",
     },
@@ -25,7 +25,7 @@ export const FAQ = () => {
     {
       question: "What finance options are available for Foldäbl homes?",
       answer:
-        "We can introduce you to trusted finance partners (3–7 year terms, competitive rates). Pre-approval is available so you know your budget up front.",
+        "We can introduce you to trusted finance partners. Terms range from 3-7 years with competitive rates. Pre-approval is available so you know your budget up front.",
     },
     {
       question: "How do councils and neighbours usually react to Foldäbl homes?",
