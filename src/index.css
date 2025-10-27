@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Foldäbl Homes Design System - Family-friendly, warm, and approachable */
+
+@layer base {
+  :root {
+    /* Foldäbl Brand Colors */
+    --background: 0 0% 100%;
+    --foreground: 210 11% 43%; /* Dusk Steel */
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 11% 43%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 43%;
+
+    /* Primary - Dusk Steel for headings, main elements */
+    --primary: 210 11% 43%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Accent - Apricot Tan for CTAs, highlights */
+    --accent: 24 47% 64%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Secondary - Light neutral for backgrounds */
+    --secondary: 0 0% 97%;
+    --secondary-foreground: 210 11% 43%;
+
+    --muted: 0 0% 97%;
+    --muted-foreground: 210 11% 55%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 11% 90%;
+    --input: 210 11% 90%;
+    --ring: 24 47% 64%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Gradients for sections */
+  --gradient-hero: linear-gradient(135deg, hsl(24 47% 64% / 0.15) 0%, hsl(210 11% 43% / 0.1) 100%);
+  --gradient-form: linear-gradient(180deg, hsl(210 11% 43%) 0%, hsl(210 11% 55%) 100%);
+  --gradient-cta: linear-gradient(135deg, hsl(24 47% 64%) 0%, hsl(24 47% 54%) 100%);
+
+  /* Shadows */
+  --shadow-soft: 0 2px 8px hsl(210 11% 43% / 0.08);
+  --shadow-card: 0 4px 16px hsl(210 11% 43% / 0.12);
+  --shadow-elevated: 0 8px 24px hsl(210 11% 43% / 0.16);
+
+  /* Transitions */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+  .dark {
+    --background: 210 11% 15%;
+    --foreground: 0 0% 98%;
+    --card: 210 11% 20%;
+    --card-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 210 11% 43%;
+    --accent: 24 47% 64%;
+    --accent-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-['Poppins',sans-serif] antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-primary;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+}
+
+@layer utilities {
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .gradient-form {
+    background: var(--gradient-form);
+  }
+
+  .gradient-cta {
+    background: var(--gradient-cta);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+
+  /* Mobile-specific utilities */
+  .touch-manipulation {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .safe-area-inset {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+
+  /* Prevent text size adjustment on iOS */
+  @supports (-webkit-touch-callout: none) {
+    body {
+      -webkit-text-size-adjust: 100%;
+    }
+  }
+
+  /* Smooth scrolling for all devices */
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Better touch scrolling on iOS */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Fade-in animation for content */
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  /* Mobile-optimized font sizes */
+  @media (max-width: 640px) {
+    html {
+      font-size: 16px; /* Prevents zooming on input focus */
+    }
+
+    input, textarea, select {
+      font-size: 16px !important; /* Prevents iOS zoom on focus */
+    }
+  }
+
+  /* Better mobile spacing */
+  @media (max-width: 768px) {
+    .container {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+
+  /* Ensure minimum side padding on all sections */
+  section {
+    padding-left: max(env(safe-area-inset-left), 0px);
+    padding-right: max(env(safe-area-inset-right), 0px);
+  }
+
+  /* Optimize images for mobile */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Better button touch targets on mobile */
+  @media (max-width: 768px) {
+    button, a {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+}
