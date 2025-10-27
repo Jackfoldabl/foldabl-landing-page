@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-interior.webp";
-import heroMobileImage from "@/assets/hero-home.jpg";
+import heroMobileImage from "@/assets/hero-mobile.webp";
 
 export const Hero = () => {
   const scrollToForm = () => {
