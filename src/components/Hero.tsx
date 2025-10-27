@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-interior.webp";
+import heroMobileImage from "@/assets/hero-home.jpg";
 
 export const Hero = () => {
   const scrollToForm = () => {
@@ -11,10 +12,21 @@ export const Hero = () => {
     <section className="relative min-h-[100vh] min-h-[100dvh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Warmth Filter and Uniform Overlay */}
       <div className="absolute inset-0 z-0">
+        {/* Mobile Image - full landscape */}
+        <img
+          src={heroMobileImage}
+          alt="Beautiful Foldäbl modular home"
+          className="block md:hidden w-full h-full object-cover"
+          loading="eager"
+          style={{
+            filter: 'brightness(1.05) saturate(1.08)'
+          }}
+        />
+        {/* Desktop Image */}
         <img
           src={heroImage}
           alt="Beautiful Foldäbl modular home interior"
-          className="w-full h-full object-cover"
+          className="hidden md:block w-full h-full object-cover"
           loading="eager"
           style={{
             filter: 'brightness(1.05) saturate(1.08)'
