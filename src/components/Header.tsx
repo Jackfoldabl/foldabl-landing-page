@@ -1,7 +1,7 @@
 export const Header = () => {
   return (
-    <header className="w-full bg-[#5F6B7B] py-4 sm:py-5 md:py-6">
-      <div className="container mx-auto px-6 sm:px-8 flex items-center justify-center">
+    <header className="w-full bg-[#5F6B7B] py-6 sm:py-7 md:py-8 shadow-md relative z-50">
+      <div className="container mx-auto flex items-center justify-center">
         <div className="flex flex-col items-center justify-center">
           {/* Logo Text */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight">
@@ -11,7 +11,7 @@ export const Header = () => {
           </h1>
           
           {/* Tagline */}
-          <p className="text-[11px] sm:text-xs md:text-sm uppercase tracking-wider text-white mt-2 sm:mt-3 font-medium">
+          <p className="text-[11px] sm:text-xs md:text-sm uppercase tracking-[0.15em] text-white/90 mt-2 sm:mt-3 font-medium">
             DESIGN | BUILD | DELIVER
           </p>
         </div>

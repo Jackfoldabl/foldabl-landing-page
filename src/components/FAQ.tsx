@@ -4,121 +4,85 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Calculator, Home, Handshake, DollarSign, Clipboard } from "lucide-react";
 
 export const FAQ = () => {
   const faqs = [
     {
+      icon: Calculator,
       question: "What's the real cost, including setup?",
       answer:
-        "Pricing starts from $39,950 for the home. Installation is additional and varies by site and location. We'll give you a clear, itemised estimate before you commit.",
+        "We'll confirm a full turnkey estimate for your site, including delivery, installation, and approvals. Prices start from $39,950 for the home itself, with installation and site works quoted separately.",
     },
     {
+      icon: Home,
       question: "Are Foldäbl homes built to last long-term?",
       answer:
-        "Our homes are built to Australian standards with quality materials. With proper site prep and maintenance, they're designed for long-term living.",
+        "Yes. Foldäbl homes are built to Australian standards with quality materials, designed for long-term living, not temporary structures.",
     },
     {
+      icon: Handshake,
       question: "What support do I get after my home is installed?",
       answer:
-        "You'll receive product documentation and a clear support path. If we arrange installation via our partners, we coordinate handover and ensure any issues are addressed quickly.",
+        "Our team and installation partners are available to help with any questions after handover. You'll receive warranty details and clear documentation.",
     },
     {
-      question: "What finance options are available for Foldäbl homes?",
+      icon: DollarSign,
+      question: "What finance options are available?",
       answer:
-        "We can introduce you to trusted finance partners. Terms range from 3-7 years with competitive rates. Pre-approval is available so you know your budget up front.",
+        "Finance from around $82/week is available to approved purchasers through our finance partners. We can help you explore options based on your situation.",
     },
     {
+      icon: Clipboard,
       question: "How do councils and neighbours usually react to Foldäbl homes?",
       answer:
-        "Most sites we assess are compatible (about 96%). We handle the council documentation to keep things smooth and compliant.",
+        "Because they're built to Australian standards and look like modern homes, councils are generally supportive when applications are done correctly. We also guide you on setbacks, positioning, and design choices that keep neighbours comfortable.",
     },
   ];
 
   return (
-    <section style={{backgroundColor: '#F8F8F8', padding: '64px 24px 72px'}}>
-      <div className="mx-auto px-6" style={{maxWidth: '1100px'}}>
-        {/* Heading block */}
-        <div className="text-center mb-14 sm:mb-18 animate-fade-in">
-          {/* Intro line */}
-          <p style={{
-            fontFamily: 'Poppins',
-            fontWeight: 400,
-            fontSize: 'clamp(14px, 2.8vw, 15px)',
-            color: 'rgba(95,107,123,0.8)',
-            marginBottom: '12px',
-            maxWidth: '700px',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            paddingLeft: '1rem',
-            paddingRight: '1rem'
-          }}>
-            Here are answers to the most common questions from families exploring Foldäbl homes.
-          </p>
-          
-          {/* Headline */}
-          <h2 style={{
-            fontFamily: 'Poppins',
-            color: '#5F6B7B', 
-            fontWeight: 700, 
-            fontSize: 'clamp(24px, 5vw, 28px)',
-            lineHeight: 1.2,
-            marginBottom: 0,
-            display: 'inline-block'
-          }}>
-            Common Questions
-          </h2>
-          
-          {/* Tan underline accent */}
-          <div className="flex justify-center" style={{marginTop: '10px'}}>
-            <div style={{
-              width: '60px',
-              height: '2px',
-              backgroundColor: '#CE9E7A'
-            }} />
+    <section className="py-20 sm:py-24 md:py-28 lg:py-32 bg-white">
+      <div className="container mx-auto">
+        <div className="max-w-[1100px] mx-auto">
+          {/* Heading block */}
+          <div className="text-center mb-16 sm:mb-20 animate-fade-in">
+            {/* Intro line */}
+            <p className="text-muted-foreground text-[15px] sm:text-base mb-4 leading-relaxed max-w-[700px] mx-auto">
+              Have questions?
+            </p>
+            
+            {/* Headline */}
+            <h2 className="text-primary font-bold text-[28px] sm:text-3xl md:text-4xl lg:text-5xl leading-tight mb-3">
+              Common Questions About Foldäbl Homes
+            </h2>
           </div>
-        </div>
 
-        {/* Accordion cards */}
-        <div className="max-w-3xl mx-auto px-6">
-          <Accordion type="single" collapsible className="w-full">
+          {/* Accordion cards */}
+          <div className="max-w-3xl mx-auto">
+          <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className="touch-manipulation"
-                style={{
-                  backgroundColor: '#FFFFFF',
-                  borderRadius: '18px',
-                  boxShadow: '0 4px 12px rgba(0,0,0,0.06)',
-                  padding: '22px 24px',
-                  marginBottom: '16px'
-                }}
+                className="touch-manipulation bg-card rounded-xl shadow-md hover:shadow-lg 
+                           transition-all duration-300 p-6 border border-gray-100"
               >
                 <AccordionItem
                   value={`item-${index}`}
                   className="border-none"
                 >
                   <AccordionTrigger 
-                    className="text-left hover:no-underline py-0 [&>svg]:text-[#CE9E7A] [&>svg]:min-w-[20px]"
-                    style={{
-                      fontFamily: 'Poppins',
-                      fontWeight: 600,
-                      fontSize: 'clamp(15px, 3vw, 17px)',
-                      color: '#5F6B7B',
-                      lineHeight: '1.4'
-                    }}
+                    className="text-left hover:no-underline py-0 [&>svg]:text-accent [&>svg]:min-w-[20px]
+                               text-primary font-semibold text-[16px] sm:text-[17px] md:text-lg leading-snug"
                   >
-                    {faq.question}
+                    <div className="flex items-center gap-3">
+                      <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
+                        <faq.icon className="w-5 h-5 text-accent" />
+                      </div>
+                      <span>{faq.question}</span>
+                    </div>
                   </AccordionTrigger>
                   <AccordionContent 
-                    className="pt-2 sm:pt-3"
-                    style={{
-                      fontFamily: 'Poppins',
-                      fontWeight: 400,
-                      fontSize: 'clamp(14px, 2.8vw, 15px)',
-                      color: '#5F6B7B',
-                      lineHeight: 1.6,
-                      transition: 'all 0.25s ease'
-                    }}
+                    className="pt-3 sm:pt-4 pl-13 text-muted-foreground text-[15px] sm:text-base leading-relaxed"
                   >
                     {faq.answer}
                   </AccordionContent>
@@ -126,6 +90,7 @@ export const FAQ = () => {
               </div>
             ))}
           </Accordion>
+        </div>
         </div>
       </div>
     </section>

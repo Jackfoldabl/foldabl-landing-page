@@ -14,16 +14,19 @@ export const LeadForm = () => {
   }, []);
 
   return (
-    <section id="lead-form" className="py-16 sm:py-20 md:py-24 lg:py-28 gradient-form scroll-mt-20">
-      <div className="container mx-auto px-6 sm:px-8 lg:px-12">
+    <section id="lead-form" className="py-20 sm:py-24 md:py-28 lg:py-32 gradient-form scroll-mt-20">
+      <div className="container mx-auto">
         <div className="max-w-[960px] mx-auto">
           {/* Heading */}
-          <div className="text-center mb-12 sm:mb-14 md:mb-18">
-            <h2 className="mb-5 sm:mb-7 text-[24px] leading-[1.25] sm:text-3xl md:text-4xl text-primary-foreground">
-              Let's Get You Started
+          <div className="text-center mb-14 sm:mb-16 md:mb-20">
+            <p className="text-[15px] sm:text-base text-primary-foreground/90 mb-4">
+              Ready To See What's Possible On Your Property?
+            </p>
+            <h2 className="mb-5 sm:mb-7 text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground">
+              Let's Get Your Foldäbl Home Plan Started
             </h2>
-            <p className="text-[16px] leading-[1.5] sm:text-lg md:text-xl text-primary-foreground/90 max-w-2xl mx-auto">
-              Tell us a bit about your site and goals. Our team will be in touch within 24 hours.
+            <p className="text-[16px] leading-[1.6] sm:text-lg md:text-xl text-primary-foreground/95 max-w-2xl mx-auto">
+              Share a few details about your site and goals. Our team will review and get back to you within 24 hours with next steps and price guidance.
             </p>
           </div>
 
@@ -34,7 +37,7 @@ export const LeadForm = () => {
               id="a3zh6FUCJAxCFbG7UEo0"
               title="Foldäbl Enquiry"
               scrolling="no"
-              className="w-full border-0 rounded-lg sm:rounded-xl"
+              className="w-full border-0 rounded-xl shadow-2xl"
               style={{
                 minHeight: '780px',
                 background: 'transparent'
@@ -42,12 +45,9 @@ export const LeadForm = () => {
             />
 
             {/* Notes under form */}
-            <div className="mt-4 sm:mt-6 md:mt-8 text-center space-y-2 px-4">
-              <p className="text-sm sm:text-base md:text-base text-primary-foreground/80 font-medium">
-                You'll need a suitable property site. We can help with finance, council approval, and installation.
-              </p>
-              <p className="text-xs sm:text-sm text-primary-foreground/60">
-                Your details are safe with us. No spam — ever.
+            <div className="mt-6 sm:mt-8 md:mt-10 text-center space-y-3 px-4">
+              <p className="text-sm sm:text-base text-primary-foreground/80 leading-relaxed">
+                Your details are safe with us. No spam, ever.
               </p>
             </div>
           </div>

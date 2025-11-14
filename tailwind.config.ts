@@ -7,8 +7,19 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "2rem",
+      padding: {
+        DEFAULT: "0.75rem", // 12px on very small screens
+        sm: "1rem",         // 16px on small screens
+        md: "1.5rem",       // 24px on medium screens
+        lg: "2rem",         // 32px on large screens
+        xl: "2rem",
+        "2xl": "2rem",
+      },
       screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
         "2xl": "1400px",
       },
     },
@@ -59,9 +70,12 @@ export default {
         },
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        'xs': "var(--radius-xs)",
+        'sm': "var(--radius-sm)",
+        'md': "var(--radius-md)",
+        'lg': "var(--radius-lg)",
+        'xl': "var(--radius-xl)",
+        '2xl': "var(--radius-2xl)",
       },
       keyframes: {
         "accordion-down": {

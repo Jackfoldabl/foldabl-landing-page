@@ -1,0 +1,251 @@
+1. New Page Structure (Top to Bottom)
+	1.	Hero – clear promise, strong CTA, background image of real Foldabl home
+	2.	Starburst “Why Foldabl” section – 6 benefit cards (finance, price, approvals, installation, speed, quality)
+	3.	Home Range – Studio / 2 Bed / 3 Bed cards with images
+	4.	Use Cases / Who It’s For – Granny flat, income, home office, holiday stay
+	5.	How It Works – 4 steps + image
+	6.	Social Proof – testimonials + rating strip
+	7.	FAQ – same structure, slightly tighter copy
+	8.	Final CTA + Form – “Get Your Foldabl Home Plan”
+
+Sticky CTA button: “Get Your Free Quote” all the way down the page.
+
+⸻
+
+2. Copy For The New Page
+
+You can tweak numbers, wording etc. I’ll write it clean and conversion-focused.
+
+⸻
+
+HERO
+
+Headline:
+Your New Home Installed in 8–10 Weeks
+
+Subheadline:
+Fixed-price modular homes from $39,950. We handle council approvals, finance, and installation so you can move in without the usual building drama.
+
+Primary CTA button:
+Get Your Free Quote →
+
+Secondary CTA (text under button):
+Or call our team on 1300 787 958 for a quick chat.
+
+Micro-trust line under hero:
+Built to Australian standards • Finance available to approved purchasers • Council approval support included
+
+Image notes:
+	•	Use a bright, in-focus interior or exterior Foldabl home shot.
+	•	Slight dark overlay so text pops.
+
+⸻
+
+SECTION 2 – STARBURST “WHY FOLDABL”
+
+Section heading:
+Why Australian Families Choose Foldabl
+
+Section subheading:
+Every home comes with the big things people worry about already solved.
+
+Starburst cards (6):
+	1.	Finance From $82/Week
+Flexible finance options available to approved purchasers so you can own, not rent.
+	2.	Studio Homes From $39,950
+Compact designs perfect for granny flats, home offices, or guest accommodation.
+	3.	2 Bedroom Homes From $44,950
+Affordable family living with multiple layout options to suit your block.
+	4.	We Handle Council Approvals
+Our team helps manage applications and paperwork so your home is approved correctly.
+	5.	Full Installation Service Available
+Licensed partners can deliver and install your home, ready for you to move in.
+	6.	Fast 8–10 Week Turnaround
+One of the quickest ways to add a high-quality dwelling to your property.
+
+Image notes:
+	•	Each card: simple icon (dollar, house, blueprint, clipboard, wrench/installer, clock).
+	•	Light background, good spacing.
+
+⸻
+
+SECTION 3 – HOME RANGE
+
+Section heading:
+Choose The Home That Fits Your Life
+
+Section subheading:
+From studios to full family homes, each Foldabl design is built to Australian standards and made to last.
+
+Card 1 – Studio (27sqm)
+Label: Studio Home
+Price line: From $39,950
+Bullets:
+	•	Perfect for granny flats or guests
+	•	Ideal home office or studio
+	•	Compact, efficient design
+	•	Modern finishes and fixtures
+
+CTA button: Get Studio Home Quote →
+
+Image: Exterior or interior of studio layout.
+
+⸻
+
+Card 2 – 2 Bedroom (Most Popular, 40–60sqm)
+Badge: Most Popular
+Label: 2 Bedroom Home
+Price line: From $44,950
+Bullets:
+	•	Spacious open-plan living
+	•	Perfect for couples or small families
+	•	Multiple layout options
+	•	Great balance of size and budget
+
+CTA button: Get 2 Bedroom Quote →
+
+Image: Interior living area or main facade.
+
+⸻
+
+Card 3 – 3 Bedroom (79sqm)
+Label: 3 Bedroom Home
+Price line: From $69,950
+Bullets:
+	•	Full family home
+	•	Three generous bedrooms
+	•	Ample living and storage space
+	•	Built for long-term living
+
+CTA button: Get 3 Bedroom Quote →
+
+Image: Exterior with family / backyard if possible.
+
+Line under cards (disclaimer):
+All prices exclude installation. Finance options from $82/week are available to approved purchasers. Every home is built to Australian standards with full council approval assistance.
+
+⸻
+
+SECTION 4 – USE CASES / WHO IT’S FOR
+
+Section heading:
+Perfect For Backyards, Families, And Income
+
+Subheading:
+Foldabl homes are a simple way to unlock more space and value from your property.
+
+Create 3–4 horizontal cards:
+	1.	Granny Flat or Family Accommodation
+Give parents, grandparents, or adult kids their own private space while staying close to home.
+	2.	Rental or Airbnb Income
+Turn unused land into a high-demand rental or holiday stay and generate extra income.
+	3.	Home Office or Studio
+Build a quiet, dedicated space for work, content creation, or your own creative studio.
+	4.	Guest Suite or Teen Retreat
+Create a separate zone so everyone has more privacy and room to breathe.
+
+Image notes:
+Use lifestyle imagery here – people actually using the space.
+
+⸻
+
+SECTION 5 – HOW IT WORKS
+
+Section heading:
+How The Foldabl Process Works
+
+Subheading:
+We guide you from first enquiry to move-in, step by step.
+
+Step 1 – Tell Us About Your Site
+Share your property details, goals, and budget. Our team checks what’s possible on your block.
+
+Step 2 – Design & Approvals
+We help you select the right Foldabl home and support your council applications and paperwork.
+
+Step 3 – Manufacture & Delivery
+Your home is manufactured to Australian standards and delivered to your site within 8–10 weeks.
+
+Step 4 – Installation & Handover
+Have our licensed partners install your home, or use your own local builder. We support you through to move-in.
+
+(Small text) Availability may vary by location.
+
+Image: One strong process-style image or collage (truck, crane, interior, happy couple).
+
+⸻
+
+SECTION 6 – SOCIAL PROOF / TESTIMONIALS
+
+Top micro-heading:
+Here’s what Australian families say about Foldabl.
+
+Section heading:
+What Families Are Saying
+
+Small rating strip above cards:
+⭐⭐⭐⭐⭐ “The process was so much easier than building the usual way.”
+
+Testimonial 1:
+“Foldabl handled everything from approvals to installation. The whole experience was incredibly smooth.”
+— Sarah M, NSW
+
+Testimonial 2:
+“The finance option made owning a second dwelling possible for us. We moved from idea to installed home in a few months.”
+— Lisa C, VIC
+
+Testimonial 3:
+“They guided us through council approvals and kept us updated the whole way. Zero surprises.”
+— Mark T, QLD
+
+Testimonial 4:
+“Outstanding quality for the price. Our new studio looks and feels like a proper home.”
+— Ryan J, SA
+
+CTA button under testimonials:
+Get Your Free Quote →
+
+⸻
+
+SECTION 7 – FAQ
+
+Top micro-heading:
+Have questions?
+
+Section heading:
+Common Questions About Foldabl Homes
+
+Use your existing questions, but tighten answers and make them benefit-focused:
+	1.	What’s the real cost, including setup?
+We’ll confirm a full turnkey estimate for your site, including delivery, installation, and approvals. Prices start from $39,950 for the home itself, with installation and site works quoted separately.
+	2.	Are Foldabl homes built to last long-term?
+Yes. Foldabl homes are built to Australian standards with quality materials, designed for long-term living, not temporary structures.
+	3.	What support do I get after my home is installed?
+Our team and installation partners are available to help with any questions after handover. You’ll receive warranty details and clear documentation.
+	4.	What finance options are available?
+Finance from around $82/week is available to approved purchasers through our finance partners. We can help you explore options based on your situation.
+	5.	How do councils and neighbours usually react to Foldabl homes?
+Because they’re built to Australian standards and look like modern homes, councils are generally supportive when applications are done correctly. We also guide you on setbacks, positioning, and design choices that keep neighbours comfortable.
+
+⸻
+
+SECTION 8 – FINAL CTA + FORM
+
+Top line:
+Ready To See What’s Possible On Your Property?
+
+Section heading:
+Let’s Get Your Foldabl Home Plan Started
+
+Subheading:
+Share a few details about your site and goals. Our team will review and get back to you within 24 hours with next steps and price guidance.
+
+Use your existing form fields, but adjust the title:
+
+Form title: Get Your Foldabl Home Information Pack
+
+Small reassurance text under form:
+Your details are safe with us. No spam, ever.
+
+Footer line above logo:
+You’ll need a suitable property site. We can help with finance, council approval, and installation.
