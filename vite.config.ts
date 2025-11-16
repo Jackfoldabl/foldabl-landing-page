@@ -22,7 +22,7 @@ const ghPagesFallback = () => ({
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/landingpage-2/", // Base path for GitHub Pages deployment
+  base: "/", // Base path for deployment
   server: {
     host: "::",
     port: 8080,
