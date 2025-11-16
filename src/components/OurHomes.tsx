@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check } from "lucide-react";
+import studioPlans from "@/assets/studio-plans.webp";
+import twoBedPlans from "@/assets/2bed-plans.avif";
+import threeBedPlans from "@/assets/3bed-plans.avif";
 
 export const OurHomes = () => {
   const scrollToForm = () => {
@@ -11,6 +14,7 @@ export const OurHomes = () => {
       name: "Studio Home",
       size: "27sqm",
       price: "From $39,950",
+      image: studioPlans,
       features: [
         "Perfect for granny flats or guests",
         "Ideal home office or studio",
@@ -23,6 +27,7 @@ export const OurHomes = () => {
       name: "2 Bedroom Home",
       size: "40-60sqm",
       price: "From $44,950",
+      image: twoBedPlans,
       features: [
         "Spacious open-plan living",
         "Perfect for couples or small families",
@@ -36,6 +41,7 @@ export const OurHomes = () => {
       name: "3 Bedroom Home",
       size: "79sqm",
       price: "From $69,950",
+      image: threeBedPlans,
       features: [
         "Full family home",
         "Three generous bedrooms",
@@ -96,12 +102,14 @@ export const OurHomes = () => {
                   <p className="text-[28px] sm:text-3xl font-bold text-primary">{home.price}</p>
                 </div>
 
-                {/* Image Placeholder */}
-                <div className="w-full h-40 sm:h-48 bg-gray-100 rounded-lg mb-6 flex items-center justify-center">
-                  <p className="text-gray-400 text-sm text-center px-4">
-                    {/* TODO: Add {home.name} interior/exterior image */}
-                    Image: {home.name}
-                  </p>
+                {/* Floor Plan Image */}
+                <div className="w-full h-48 sm:h-56 md:h-64 rounded-lg mb-6 overflow-hidden bg-white">
+                  <img 
+                    src={home.image} 
+                    alt={`${home.name} floor plan`}
+                    className="w-full h-full object-contain"
+                    loading="lazy"
+                  />
                 </div>
 
                 {/* Features List */}
