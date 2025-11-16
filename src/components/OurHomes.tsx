@@ -73,13 +73,13 @@ export const OurHomes = () => {
                            animate-fade-in
                            border border-gray-100
                            w-full
-                           ${home.popular ? 'ring-2 ring-accent shadow-xl' : ''}`}
+                           ${home.popular ? 'ring-2 ring-accent shadow-xl pt-8 sm:pt-10 md:pt-10' : ''}`}
                 style={{ animationDelay: `${index * 0.15}s` }}
               >
                 {/* Popular Badge */}
                 {home.popular && (
-                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
-                    <span className="bg-accent text-accent-foreground px-3 py-1 rounded-full text-xs sm:text-sm font-semibold shadow-lg whitespace-nowrap">
+                  <div className="absolute top-3 sm:top-4 left-1/2 transform -translate-x-1/2 z-10">
+                    <span className="bg-accent text-accent-foreground px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-lg whitespace-nowrap">
                       Most Popular
                     </span>
                   </div>
