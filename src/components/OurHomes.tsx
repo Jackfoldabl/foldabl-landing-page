@@ -106,11 +106,11 @@ export const OurHomes = () => {
                 </div>
 
                 {/* Floor Plan Image */}
-                <div className="w-full h-48 sm:h-56 md:h-64 rounded-lg mb-6 overflow-hidden bg-white">
+                <div className="w-full rounded-lg mb-6 overflow-hidden bg-white">
                   <img 
                     src={home.image} 
                     alt={`${home.name} floor plan`}
-                    className="w-full h-full object-contain"
+                    className="w-full h-auto object-cover"
                     loading="lazy"
                   />
                 </div>
