@@ -56,7 +56,7 @@ export const Process = () => {
                        minHeight: '240px'
                      }}>
                   {/* Number Badge */}
-                  <div className="absolute -top-4 left-6 w-11 h-11 rounded-full flex items-center justify-center font-bold text-base z-10
+                  <div className="absolute -top-3 sm:-top-4 left-4 sm:left-6 w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full flex items-center justify-center font-bold text-sm sm:text-base z-10
                                   bg-accent text-accent-foreground shadow-lg"
                        style={{boxShadow: '0 4px 12px rgba(206, 158, 122, 0.4)'}}>
                     {index + 1}
