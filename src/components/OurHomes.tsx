@@ -71,20 +71,23 @@ export const OurHomes = () => {
             {homes.map((home, index) => (
               <div
                 key={index}
-                className={`relative flex flex-col p-5 sm:p-8 md:p-10 bg-card rounded-xl
+                className={`relative flex flex-col p-5 sm:p-8 md:p-10 rounded-xl
                            shadow-lg
                            hover:shadow-2xl
                            md:hover:-translate-y-1
                            transition-all duration-300 ease-out
                            animate-fade-in
-                           border border-gray-100
                            w-full
-                           ${home.popular ? 'ring-2 ring-accent shadow-xl pt-8 sm:pt-10 md:pt-10' : ''}`}
-                style={{ animationDelay: `${index * 0.15}s` }}
+                           ${home.popular ? 'ring-2 ring-accent shadow-xl pt-10 sm:pt-12 md:pt-12' : 'pt-5 sm:pt-8 md:pt-10'}`}
+                style={{ 
+                  animationDelay: `${index * 0.15}s`,
+                  backgroundColor: '#5F6B7B',
+                  color: '#FFFFFF'
+                }}
               >
                 {/* Popular Badge */}
                 {home.popular && (
-                  <div className="absolute top-3 sm:top-4 left-1/2 transform -translate-x-1/2 z-10">
+                  <div className="absolute top-4 sm:top-5 left-1/2 transform -translate-x-1/2 z-10">
                     <span className="bg-accent text-accent-foreground px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-semibold shadow-lg whitespace-nowrap">
                       Most Popular
                     </span>
@@ -92,14 +95,14 @@ export const OurHomes = () => {
                 )}
 
                 {/* Name & Size */}
-                <h3 className="text-[24px] sm:text-3xl font-bold text-primary mb-1">
+                <h3 className="text-[24px] sm:text-3xl font-bold text-white mb-1">
                   {home.name}
                 </h3>
                 <p className="text-accent font-medium text-sm sm:text-base mb-4">{home.size}</p>
 
                 {/* Price */}
                 <div className="mb-6">
-                  <p className="text-[28px] sm:text-3xl font-bold text-primary">{home.price}</p>
+                  <p className="text-[28px] sm:text-3xl font-bold text-white">{home.price}</p>
                 </div>
 
                 {/* Floor Plan Image */}
@@ -117,7 +120,7 @@ export const OurHomes = () => {
                   {home.features.map((feature, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Check className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                      <span className="text-[15px] sm:text-base text-muted-foreground leading-relaxed">
+                      <span className="text-[15px] sm:text-base text-white/90 leading-relaxed">
                         {feature}
                       </span>
                     </li>
