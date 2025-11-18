@@ -10,33 +10,33 @@ export const FAQ = () => {
   const faqs = [
     {
       icon: Calculator,
-      question: "What's the real cost, including setup?",
+      question: "What's the total cost including installation?",
       answer:
-        "We'll confirm a full turnkey estimate for your site, including delivery, installation, and approvals. Prices start from $39,950 for the home itself, with installation and site works quoted separately.",
+        "Homes start at $39,950 for the structure. Installation, delivery, and site preparation are quoted separately based on your location and site conditions. We'll provide a complete cost estimate for your property.",
     },
     {
       icon: Home,
-      question: "Are Foldäbl homes built to last long-term?",
+      question: "Are these homes built for permanent living?",
       answer:
-        "Yes. Foldäbl homes are built to Australian standards with quality materials, designed for long-term living, not temporary structures.",
+        "Yes. Every Foldäbl home is built to Australian building standards using quality materials. These are permanent structures designed for long-term living, not temporary dwellings.",
     },
     {
       icon: Handshake,
-      question: "What support do I get after my home is installed?",
+      question: "What happens after installation?",
       answer:
-        "Our team and installation partners are available to help with any questions after handover. You'll receive warranty details and clear documentation.",
+        "You'll receive full warranty details and documentation at handover. Our team and installation partners remain available to answer questions and help with any post-installation needs.",
     },
     {
       icon: DollarSign,
-      question: "What finance options are available?",
+      question: "Can I finance my Foldäbl home?",
       answer:
-        "Finance from around $82/week is available to approved purchasers through our finance partners. We can help you explore options based on your situation.",
+        "Yes. We work with finance partners who offer payment plans from approximately $82/week to approved buyers. We can connect you with the right financing option for your situation.",
     },
     {
       icon: Clipboard,
-      question: "How do councils and neighbours usually react to Foldäbl homes?",
+      question: "Will councils approve these homes?",
       answer:
-        "Because they're built to Australian standards and look like modern homes, councils are generally supportive when applications are done correctly. We also guide you on setbacks, positioning, and design choices that keep neighbours comfortable.",
+        "Foldäbl homes meet Australian building standards and look like quality modern homes. When applications are prepared properly, councils are typically supportive. We guide you through the approval process and help with positioning, setbacks, and design choices.",
     },
   ];
 
@@ -48,12 +48,12 @@ export const FAQ = () => {
           <div className="text-center mb-16 sm:mb-20 animate-fade-in">
             {/* Intro line */}
             <p className="text-muted-foreground text-[15px] sm:text-base mb-4 leading-relaxed max-w-[700px] mx-auto">
-              Have questions?
+              Got questions? We've got answers.
             </p>
             
             {/* Headline */}
             <h2 className="text-primary font-bold text-[28px] sm:text-3xl md:text-4xl lg:text-5xl leading-tight mb-3">
-              Common Questions About Foldäbl Homes
+              Frequently Asked Questions
             </h2>
           </div>
 

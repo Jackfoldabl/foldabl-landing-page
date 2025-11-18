@@ -8,24 +8,24 @@ export const Process = () => {
   const steps = [
     {
       icon: Home,
-      title: "Tell Us About Your Site",
-      description: "Share your property details, goals, and budget. Our team checks what's possible on your block.",
+      title: "Tell Us About Your Property",
+      description: "Share your site details, what you need the home for, and your budget. We'll review what's possible on your block.",
     },
     {
       icon: FileCheck,
-      title: "Design & Approvals",
-      description: "We help you select the right Foldäbl home and support your council applications and paperwork.",
+      title: "Choose Design & Get Approvals",
+      description: "Pick the right Foldäbl home for your needs. We'll help with council applications and paperwork.",
     },
     {
       icon: Truck,
-      title: "Manufacture & Delivery",
-      description: "Your home is manufactured to Australian standards and delivered to your site within 8–10 weeks.",
+      title: "We Build & Deliver",
+      description: "Your home is built to Australian standards and delivered to your site in 8–10 weeks.",
     },
     {
       icon: Wrench,
-      title: "Installation & Handover",
-      description: "Have our licensed partners install your home, or use your own local builder. We support you through to move-in.",
-      note: "Availability may vary by location.",
+      title: "Installation & Move-In",
+      description: "Our licensed partners install your home, or you can use your own builder. We're with you until handover.",
+      note: "Installation partner availability varies by location.",
     },
   ];
 
@@ -36,10 +36,10 @@ export const Process = () => {
           {/* Header */}
           <div className="text-center mb-16 sm:mb-20 animate-fade-in">
             <h2 className="mb-5 text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-              How The Foldäbl Process Works
+              How It Works
             </h2>
             <p className="text-[16px] leading-[1.65] sm:text-lg md:text-xl max-w-[640px] mx-auto text-muted-foreground">
-              We guide you from first enquiry to move-in, step by step.
+              We guide you through every step—from initial enquiry to move-in day.
             </p>
           </div>
 

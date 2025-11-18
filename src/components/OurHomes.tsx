@@ -16,10 +16,10 @@ export const OurHomes = () => {
       price: "From $39,950",
       image: studioPlans,
       features: [
-        "Perfect for granny flats or guests",
-        "Ideal home office or studio",
-        "Compact, efficient design",
-        "Modern finishes and fixtures",
+        "Perfect granny flat or guest suite",
+        "Ideal home office or creative studio",
+        "Smart, space-efficient layout",
+        "Quality finishes included",
       ],
       ctaText: "Get Studio Home Quote",
     },
@@ -29,10 +29,10 @@ export const OurHomes = () => {
       price: "From $44,950",
       image: twoBedPlans,
       features: [
-        "Spacious open-plan living",
-        "Perfect for couples or small families",
-        "Multiple layout options",
-        "Great balance of size and budget",
+        "Open-plan living area",
+        "Great for couples or small families",
+        "Multiple layout options available",
+        "Best value for size and quality",
       ],
       popular: true,
       ctaText: "Get 2 Bedroom Quote",
@@ -43,10 +43,10 @@ export const OurHomes = () => {
       price: "From $69,950",
       image: threeBedPlans,
       features: [
-        "Full family home",
-        "Three generous bedrooms",
-        "Ample living and storage space",
-        "Built for long-term living",
+        "Complete family home",
+        "Three spacious bedrooms",
+        "Plenty of living and storage space",
+        "Designed for permanent living",
       ],
       ctaText: "Get 3 Bedroom Quote",
     },
@@ -59,10 +59,10 @@ export const OurHomes = () => {
           {/* Header */}
           <div className="text-center mb-14 sm:mb-20 animate-fade-in">
             <h2 className="mb-5 text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-              Choose The Home That Fits Your Life
+              Choose Your Home
             </h2>
             <p className="text-[16px] leading-[1.6] sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              From studios to full family homes, each Foldäbl design is built to Australian standards and made to last.
+              From compact studios to full family homes—every Foldäbl is built to Australian standards.
             </p>
           </div>
 
@@ -143,8 +143,8 @@ export const OurHomes = () => {
           {/* Bottom Note */}
           <div className="text-center mt-12 sm:mt-16">
             <p className="text-[14px] sm:text-base text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              All prices exclude installation. Finance options from $82/week are available to approved purchasers. 
-              Every home is built to Australian standards with full council approval assistance.
+              Prices shown are for the home only (installation quoted separately). Finance from $82/week available to approved buyers. 
+              Every home meets Australian building standards—we help with council approvals.
             </p>
           </div>
         </div>

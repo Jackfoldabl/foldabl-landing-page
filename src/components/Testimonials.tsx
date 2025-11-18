@@ -7,22 +7,22 @@ export const Testimonials = () => {
   };
   const testimonials = [
     {
-      text: "Foldäbl handled everything from approvals to installation. The whole experience was incredibly smooth.",
+      text: "Foldäbl took care of everything—from approvals to installation. The whole process was smooth and stress-free.",
       author: "Sarah M",
       location: "NSW",
     },
     {
-      text: "The finance option made owning a second dwelling possible for us. We moved from idea to installed home in a few months.",
+      text: "The finance option made it possible for us to build. We went from first contact to finished home in just a few months.",
       author: "Lisa C",
       location: "VIC",
     },
     {
-      text: "They guided us through council approvals and kept us updated the whole way. Zero surprises.",
+      text: "They walked us through council approvals and kept us informed every step of the way. No surprises.",
       author: "Mark T",
       location: "QLD",
     },
     {
-      text: "Outstanding quality for the price. Our new studio looks and feels like a proper home.",
+      text: "Exceptional quality for the price. Our studio looks and feels like a real home, not a shed.",
       author: "Ryan J",
       location: "SA",
     },
@@ -36,12 +36,12 @@ export const Testimonials = () => {
           <div className="text-center mb-16 sm:mb-20 animate-fade-in">
             {/* Intro line */}
             <p className="text-muted-foreground text-[15px] sm:text-base mb-6 leading-relaxed">
-              Here's what Australian families say about Foldäbl.
+              What our customers say about their experience
             </p>
             
             {/* Headline */}
             <h2 className="text-primary font-bold text-[28px] sm:text-3xl md:text-4xl lg:text-5xl leading-tight mb-6">
-              What Families Are Saying
+              Real Stories From Real Families
             </h2>
 
             {/* Star Rating Strip */}
@@ -51,7 +51,7 @@ export const Testimonials = () => {
               ))}
             </div>
             <p className="text-muted-foreground text-sm sm:text-base italic">
-              "The process was so much easier than building the usual way."
+              "So much easier than traditional building."
             </p>
           </div>
 

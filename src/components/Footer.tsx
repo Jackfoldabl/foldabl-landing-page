@@ -7,7 +7,7 @@ export const Footer = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Footer intro line */}
           <p className="text-sm sm:text-base text-primary-foreground/80 mb-6">
-            You'll need a suitable property site. We can help with finance, council approval, and installation.
+            Quality modular homes for Australian properties. We help with finance, council approvals, and installation.
           </p>
 
           {/* Logo */}
@@ -53,7 +53,7 @@ export const Footer = () => {
               © {new Date().getFullYear()} Foldäbl Homes. All rights reserved.
             </p>
             <p className="text-xs sm:text-sm text-white/70 mt-3">
-              Quality modular homes built to Australian standards
+              Australian-made modular homes built to national standards
             </p>
           </div>
         </div>

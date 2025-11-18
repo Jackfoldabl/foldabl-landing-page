@@ -4,23 +4,23 @@ export const UseCases = () => {
   const useCases = [
     {
       icon: Home,
-      title: "Granny Flat or Family Accommodation",
-      description: "Give parents, grandparents, or adult kids their own private space while staying close to home.",
+      title: "Granny Flat or Family Living",
+      description: "Give aging parents, adult children, or family members their own space while keeping everyone close.",
     },
     {
       icon: DollarSign,
-      title: "Rental or Airbnb Income",
-      description: "Turn unused land into a high-demand rental or holiday stay and generate extra income.",
+      title: "Rental Income or Airbnb",
+      description: "Transform unused land into rental income—these homes are perfect for long-term tenants or holiday stays.",
     },
     {
       icon: Briefcase,
-      title: "Home Office or Studio",
-      description: "Build a quiet, dedicated space for work, content creation, or your own creative studio.",
+      title: "Home Office or Studio Space",
+      description: "Create a dedicated, quiet workspace for remote work, creative projects, or running your business.",
     },
     {
       icon: Users,
       title: "Guest Suite or Teen Retreat",
-      description: "Create a separate zone so everyone has more privacy and room to breathe.",
+      description: "Give teenagers or guests their own private zone—more space and privacy for everyone.",
     },
   ];
 
@@ -31,10 +31,10 @@ export const UseCases = () => {
           {/* Header */}
           <div className="text-center mb-14 sm:mb-20 animate-fade-in">
             <h2 className="mb-5 text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-              Perfect For Backyards, Families, And Income
+              Perfect For Family, Income, Or Extra Space
             </h2>
             <p className="text-[16px] leading-[1.6] sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Foldäbl homes are a simple way to unlock more space and value from your property.
+              Add functional living space to your property—for family, income, or your own needs.
             </p>
           </div>
 

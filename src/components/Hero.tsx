@@ -58,7 +58,7 @@ export const Hero = () => {
               color: '#5F6B7B'
             }}
           >
-            Your New Home Installed in 8–10 Weeks
+            Move Into Your New Home In Just 8–10 Weeks
           </h1>
 
           {/* Subheadline */}
@@ -71,7 +71,7 @@ export const Hero = () => {
               color: '#5F6B7B'
             }}
           >
-            Fixed-price modular homes from $39,950. We handle council approvals, finance, and installation so you can move in without the usual building drama.
+            Quality modular homes from $39,950 with fixed pricing. We take care of council approvals, arrange finance, and coordinate installation—so you skip the usual building headaches.
           </p>
 
           {/* CTA Button */}
@@ -111,7 +111,7 @@ export const Hero = () => {
               opacity: 0.85
             }}
           >
-            Or call our team on <a href="tel:1300787958" className="font-semibold hover:text-accent transition-colors">1300 787 958</a> for a quick chat.
+            Prefer to talk? Call us on <a href="tel:1300787958" className="font-semibold hover:text-accent transition-colors">1300 787 958</a>
           </p>
 
           {/* Micro-trust line */}
@@ -123,7 +123,7 @@ export const Hero = () => {
               opacity: 0.75
             }}
           >
-            Built to Australian standards • Finance available to approved purchasers • Council approval support included
+            Australian building standards • Finance options available • Council approval assistance
           </p>
           </div>
         </div>
@@ -147,7 +147,7 @@ export const Hero = () => {
               textShadow: '0 2px 12px rgba(0,0,0,0.4)'
             }}
           >
-            Your New Home Installed in 8–10 Weeks
+            Move Into Your New Home In Just 8–10 Weeks
           </h1>
 
           {/* Subheadline */}
@@ -161,7 +161,7 @@ export const Hero = () => {
               textShadow: '0 2px 10px rgba(0,0,0,0.4)'
             }}
           >
-            Fixed-price modular homes from $39,950. We handle council approvals, finance, and installation so you can move in without the usual building drama.
+            Quality modular homes from $39,950 with fixed pricing. We take care of council approvals, arrange finance, and coordinate installation—so you skip the usual building headaches.
           </p>
 
           {/* CTA Button */}
@@ -201,7 +201,7 @@ export const Hero = () => {
               textShadow: '0 2px 10px rgba(0,0,0,0.4)'
             }}
           >
-            Or call our team on <a href="tel:1300787958" className="font-semibold hover:text-accent transition-colors underline">1300 787 958</a> for a quick chat.
+            Prefer to talk? Call us on <a href="tel:1300787958" className="font-semibold hover:text-accent transition-colors underline">1300 787 958</a>
           </p>
 
           {/* Micro-trust line */}
@@ -213,7 +213,7 @@ export const Hero = () => {
               textShadow: '0 2px 10px rgba(0,0,0,0.4)'
             }}
           >
-            Built to Australian standards • Finance available to approved purchasers • Council approval support included
+            Australian building standards • Finance options available • Council approval assistance
           </p>
         </div>
       </div>

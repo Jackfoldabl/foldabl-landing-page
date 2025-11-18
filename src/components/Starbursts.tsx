@@ -5,32 +5,32 @@ export const Starbursts = () => {
     {
       icon: DollarSign,
       title: "Finance From $82/Week",
-      description: "Flexible finance options available to approved purchasers so you can own, not rent.",
+      description: "Own your home with flexible payment plans. Finance available to approved buyers.",
     },
     {
       icon: Home,
       title: "Studio Homes From $39,950",
-      description: "Compact designs perfect for granny flats, home offices, or guest accommodation.",
+      description: "Perfectly sized for granny flats, home offices, or guest accommodation.",
     },
     {
       icon: Building,
       title: "2 Bedroom Homes From $44,950",
-      description: "Affordable family living with multiple layout options to suit your block.",
+      description: "Full family living spaces with flexible layouts to suit your block.",
     },
     {
       icon: FileCheck,
       title: "We Handle Council Approvals",
-      description: "Our team helps manage applications and paperwork so your home is approved correctly.",
+      description: "We manage the applications and paperwork to get your home approved properly.",
     },
     {
       icon: Wrench,
-      title: "Full Installation Service Available",
-      description: "Licensed partners can deliver and install your home, ready for you to move in.",
+      title: "Installation Service Available",
+      description: "Licensed partners deliver and install your home, ready for you to move in.",
     },
     {
       icon: Clock,
-      title: "Fast 8–10 Week Turnaround",
-      description: "One of the quickest ways to add a high-quality dwelling to your property.",
+      title: "Ready In 8–10 Weeks",
+      description: "One of the fastest ways to add quality living space to your property.",
     },
   ];
 
@@ -41,10 +41,10 @@ export const Starbursts = () => {
           {/* Header */}
           <div className="text-center mb-14 sm:mb-20 animate-fade-in">
             <h2 className="mb-5 text-[28px] leading-[1.25] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-primary">
-              Why Australian Families Choose Foldäbl
+              Why Families Choose Foldäbl
             </h2>
             <p className="text-[16px] leading-[1.6] sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-              Every home comes with the big things people worry about already solved.
+              We've taken care of the things most people worry about when building.
             </p>
           </div>
 
